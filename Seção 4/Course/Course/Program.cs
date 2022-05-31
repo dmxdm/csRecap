@@ -5,6 +5,83 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            //Aluno a;
+            //a = new Aluno();
+            //Console.Write("Nome do Aluno: ");
+            //a.Nome = Console.ReadLine();
+            //Console.WriteLine("Digite as três notas do aluno: ");
+            //a.N1 = double.Parse(Console.ReadLine());
+            //a.N2 = double.Parse(Console.ReadLine());
+            //a.N3 = double.Parse(Console.ReadLine());
+            //Console.WriteLine(a);
+
+            //Funcionario f;
+            //f = new Funcionario();
+            //Console.Write("Nome: ");
+            //f.Nome = Console.ReadLine();
+            //Console.Write("Salário Bruto: ");
+            //f.SalarioBruto = double.Parse(Console.ReadLine());
+            //Console.Write("Imposto: ");
+            //f.Imposto = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Funcionário: " + f.Nome + ", $ " + f.SalarioLiquido().ToString("F2",CultureInfo.InvariantCulture));
+            //Console.Write("Digite a porcentagem para aumentar o salário: ");
+            //f.AumentarSalario(double.Parse(Console.ReadLine()));
+            //Console.WriteLine("Dados Atualizados: " + f.Nome + ", $ " + f.SalarioLiquido().ToString("F2", CultureInfo.InvariantCulture));
+
+            //Retangulo forma;
+            //forma = new Retangulo();
+            //Console.WriteLine("Digite a Largura e Altura do retângulo:");
+            //forma.Altura = double.Parse(Console.ReadLine());
+            //forma.Largura = double.Parse(Console.ReadLine());
+            //Console.WriteLine(forma);
+
+            //##############  METODOS EM CLASSES
+
+            //Produto item;
+            //item = new Produto();
+            //Console.WriteLine("Entre com os dados do produto:");
+            //Console.Write("Nome: ");
+            //item.Nome = Console.ReadLine();
+            //Console.Write("Preço: ");
+            //item.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Quantidade em estoque: ");
+            //item.Quantidade = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"Dados do Produto: " + item);
+            //Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            //item.AdicionarProdutos(int.Parse(Console.ReadLine()));
+            //Console.WriteLine($"Dados do Produto: " + item);
+            //Console.Write("Digite o número de produtos a ser removido ao estoque: ");
+            //item.RemoverProdutos(int.Parse(Console.ReadLine()));
+            //Console.WriteLine($"Dados do Produto: " + item);
+
+            //Triangulo x, y;
+            //x = new Triangulo();
+            //y = new Triangulo();
+
+            //Console.WriteLine("Digite as Medidas de um Triângulo X:");
+
+            //x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //Console.WriteLine("Digite as Medidas de um Triângulo Y:");
+
+            //y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //Console.WriteLine($"A área de X = {x.Area().ToString("F4", CultureInfo.InvariantCulture)}");
+            //Console.WriteLine($"A área de Y = {y.Area().ToString("F4", CultureInfo.InvariantCulture)}");
+
+            //if (x.Area() > y.Area()) {
+            //    Console.WriteLine("Maior área: X");
+            //}
+            //else {
+            //    Console.WriteLine("Maior área: Y");
+            //}
+
+            //######################### exercicios
+
             //Pessoa fulano1, fulano2;
             //fulano1 = new Pessoa();
             //fulano2 = new Pessoa();
