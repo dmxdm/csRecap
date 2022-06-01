@@ -3,8 +3,30 @@ using System.Globalization;
 
 namespace Course {
     class Program {
+
         static void Main(string[] args) {
 
+
+            //################ Exercicio
+            //Console.Write("Qual a cotação do dólar: ");
+            //double v = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Quantos dólares irá comprar: ");
+            //double q = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Valor total a ser pago em R$: "+ ConversorDeMoeda.Dolar(v, q).ToString("F2",CultureInfo.InvariantCulture));
+
+
+            //######### MEMBROS ESTATICOS OBJETOS QUE NAO MUDAM
+            //Console.Write("Entre o valor do raio: ");
+
+            //double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //double circ = Calculadora.Circunferencia(raio);
+            //double vol = Calculadora.Volume(raio);
+
+            //Console.WriteLine("Circunferencia: " + circ.ToString("F2", CultureInfo.InvariantCulture));
+            //Console.WriteLine("Circunferencia: " + vol.ToString("F2", CultureInfo.InvariantCulture));
+            //Console.WriteLine("Valor de Pi: " + Calculadora.Pi.ToString("F2", CultureInfo.InvariantCulture));
+
+            // ####################### exercicios
             //Aluno a;
             //a = new Aluno();
             //Console.Write("Nome do Aluno: ");
@@ -177,5 +199,9 @@ namespace Course {
 
 
         }
+
+
+
+
     }
 }
