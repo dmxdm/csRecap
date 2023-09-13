@@ -1,3 +1,6 @@
 Aula 20, Implicita e Casting
 Aula 43, Object
 Aula 47, Classe Static
+Aula 51, Construtores
+Aula 52, Sobrecarga de Construtores
+Aula 53, Inicilizar Classe sem Construtor
