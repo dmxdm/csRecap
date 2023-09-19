@@ -10,3 +10,4 @@ Aula 56, Propriedades (tipo metodos mas com {}, uso do get e set)
 Aula 57, Auto Proriedades {get; private set} direto na declaração do atributo
 Aula 58, Boas pratica na estrutura da classe
 Aula 59, Modificadores de Acesso
+Aula 69 e 70, vetores struct e vetores classe
