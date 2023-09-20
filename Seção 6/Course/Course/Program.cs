@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Runtime.Intrinsics.X86;
 
@@ -10,35 +11,71 @@ namespace Course
         {
 
 
-            // VETORES Classe
+            ////UnBoxing 
 
-            int n = int.Parse(Console.ReadLine());
+            //object obj = 10;
 
-            Produto[] vector = new Produto[n];
+            //int y = (int)obj;
 
-            for (int i = 0; i < n; i++)
-            {
-                string name = Console.ReadLine();
-                double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            ////Boxing 
 
-                vector[i] = new Produto { Name = name, Preco = price };
-            }
-
-            double sum = 0.0;
-
-            for (int j = 0; j < n ; j++)
-            {
-
-                sum += vector[j].Preco;
-
-            }
-
-            double avg = sum / n;
-
-            Console.WriteLine("Media = " +  avg.ToString("f2", CultureInfo.InvariantCulture));
+            //object obj = 10;
 
 
-            // VETORES Struct
+            ////modificador de paramentro OUT e REF
+
+            //int a = 10;
+
+            //Calculator.Triple(a, out int triple);
+
+            //Console.WriteLine(triple);
+
+
+
+            //int a = 10;
+            //Calculator.Triple(ref a);
+            //Console.WriteLine(a);
+
+
+            ////modificador de paramentro PARAMS
+
+            //int s1 = Calculator.Sum(1, 2, 3, 4, 5, 6, 7);
+            //Console.WriteLine(s1);
+
+            //int[] vect = { 1, 2, 3, 4 };
+            //int s1 = Calculator.Sum(vect);
+            //Console.WriteLine(s1);
+
+
+            //// VETORES Classe
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //Produto[] vector = new Produto[n];
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    string name = Console.ReadLine();
+            //    double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //    vector[i] = new Produto { Name = name, Preco = price };
+            //}
+
+            //double sum = 0.0;
+
+            //for (int j = 0; j < n ; j++)
+            //{
+
+            //    sum += vector[j].Preco;
+
+            //}
+
+            //double avg = sum / n;
+
+            //Console.WriteLine("Media = " +  avg.ToString("f2", CultureInfo.InvariantCulture));
+
+
+            //// VETORES Struct
 
 
             //int n = int.Parse(Console.ReadLine());
