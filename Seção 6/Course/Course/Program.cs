@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
+using System.Numerics;
 using System.Runtime.Intrinsics.X86;
 
 namespace Course
@@ -9,6 +11,99 @@ namespace Course
     {
         static void Main(string[] args)
         {
+
+            //// LIST
+
+            //List<string> list = new List<string>();
+            
+            //list.Add("banana");
+            //list.Add("jaca");
+            //list.Add("maça");
+            //list.Add("pera");
+            //list.Add("melao");
+            //list.Insert(2,"melancia");
+
+            //foreach (string item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.WriteLine(list.Count);
+            //Console.WriteLine("--------------");
+
+            ////string s1 = list.Find(Test);
+            //string s1 = list.Find( x => x[0] == 'm'); // quero X tal que X na posição 0 seja m, o primeiro que aparecer
+            //Console.WriteLine(s1);
+            //Console.WriteLine("--------------");
+
+            //int pos1 = list.FindIndex(x => x[0] == 'm'); // quero X tal que X na posição 0 seja m, o primeiro que aparecer
+            //Console.WriteLine(pos1);
+            //Console.WriteLine("--------------");
+
+            //string s2 = list.FindLast(x => x[0] == 'm'); // quero X tal que X na posição 0 seja m, o ultimo que aparecer
+            //Console.WriteLine(s2);
+            //Console.WriteLine("--------------");
+
+            //int pos2 = list.FindLastIndex(x => x[0] == 'm'); // quero X tal que X na posição 0 seja m, o primeiro que aparecer
+            //Console.WriteLine(pos2);
+
+            //List<string> list2 = list.FindAll(x => x.Length >= 5);
+            //Console.WriteLine("--------------");
+
+            //foreach (string item in list2)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //list.Remove("banana");
+            //Console.WriteLine( "--------------");
+
+            //foreach (string item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.WriteLine("--------------");
+
+            //list.RemoveAll(x => x.Contains('m'));
+            //Console.WriteLine("--------------");
+
+            //foreach (string item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //list.RemoveAt(3);
+            //Console.WriteLine("--------------");
+
+            //foreach (string item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //list.RemoveRange(1,3);
+            //Console.WriteLine("--------------");
+
+            //foreach (string item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+        }
+
+        //static bool Test(string s)
+        //{
+        //    return s[0] == 'm';
+        //}
+
+            ////for each
+
+            //string[] vert = { "1", "2", "3" };
+            //string[] vert2 = new string[] { "1", "2", "3" };
+
+            //foreach (string item in vert)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
 
             ////UnBoxing 
@@ -152,7 +247,7 @@ namespace Course
 
 
 
-        }
+        
 
     }
 }
