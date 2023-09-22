@@ -16,3 +16,4 @@ Aula 73, modificado REF, uma funcao void que modifica o valor recibido sem usar 
 Aula 73, modificado OUT, uma funcao void que sem usar return, retorna o valor em um espaço entregue pelo chamda da funcao, entrega uma caixa vazia e te entraga um caixa cheia
 Aula 74, UnBoxing, conversao de objeto tipo valor para tipo referencia, é o inverso da aula 43, transforma um object em um valor desde que seja compativel
 Aula 77 - List, predicate, find ( é um auto for da lista, passa o valor orgenadamente junto de uma funcao ou extrao boleao lambda) todos outro tipos de metodos da class! TOP!
+Aula 79 e 80, Matrizes

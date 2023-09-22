@@ -12,10 +12,49 @@ namespace Course
         static void Main(string[] args)
         {
 
+            //MATRIZ
+
+            int n = int.Parse(Console.ReadLine());
+            int[,] mat = new int[n, n];
+            int[] diag = new int[n];
+            int neg = 0
+                ;
+            for (int i = 0; i < n ; i++)
+            {
+                string[] values = Console.ReadLine().Split(' ');
+
+                for (int j = 0; j < n; j++)
+                {
+                    mat[i, j] = int.Parse(values[j]);
+
+                    if (i == j)
+                    {
+                        diag[i] = mat[i, j];
+                    }
+
+                    if (mat[i,j] < 0)
+                    {
+                        neg++;
+                    }
+                }
+            }
+
+            Console.WriteLine(diag[0] +" "+ diag[1] + " " + diag[2]);
+            Console.WriteLine(neg);
+
+            //double[,] mat = new double[2, 3];
+
+            //Console.WriteLine( mat.Length);
+
+            //Console.WriteLine(mat.Rank);
+
+            //Console.WriteLine(mat.GetLength(1));
+
+
             //// LIST
 
             //List<string> list = new List<string>();
-            
+
             //list.Add("banana");
             //list.Add("jaca");
             //list.Add("maça");
@@ -95,137 +134,137 @@ namespace Course
         //    return s[0] == 'm';
         //}
 
-            ////for each
+        ////for each
 
-            //string[] vert = { "1", "2", "3" };
-            //string[] vert2 = new string[] { "1", "2", "3" };
+        //string[] vert = { "1", "2", "3" };
+        //string[] vert2 = new string[] { "1", "2", "3" };
 
-            //foreach (string item in vert)
-            //{
-            //    Console.WriteLine(item);
-            //}
+        //foreach (string item in vert)
+        //{
+        //    Console.WriteLine(item);
+        //}
 
 
-            ////UnBoxing 
+        ////UnBoxing 
 
-            //object obj = 10;
+        //object obj = 10;
 
-            //int y = (int)obj;
+        //int y = (int)obj;
 
-            ////Boxing 
+        ////Boxing 
 
-            //object obj = 10;
+        //object obj = 10;
 
 
-            ////modificador de paramentro OUT e REF
+        ////modificador de paramentro OUT e REF
 
-            //int a = 10;
+        //int a = 10;
 
-            //Calculator.Triple(a, out int triple);
+        //Calculator.Triple(a, out int triple);
 
-            //Console.WriteLine(triple);
+        //Console.WriteLine(triple);
 
 
 
-            //int a = 10;
-            //Calculator.Triple(ref a);
-            //Console.WriteLine(a);
+        //int a = 10;
+        //Calculator.Triple(ref a);
+        //Console.WriteLine(a);
 
 
-            ////modificador de paramentro PARAMS
+        ////modificador de paramentro PARAMS
 
-            //int s1 = Calculator.Sum(1, 2, 3, 4, 5, 6, 7);
-            //Console.WriteLine(s1);
+        //int s1 = Calculator.Sum(1, 2, 3, 4, 5, 6, 7);
+        //Console.WriteLine(s1);
 
-            //int[] vect = { 1, 2, 3, 4 };
-            //int s1 = Calculator.Sum(vect);
-            //Console.WriteLine(s1);
+        //int[] vect = { 1, 2, 3, 4 };
+        //int s1 = Calculator.Sum(vect);
+        //Console.WriteLine(s1);
 
 
-            //// VETORES Classe
+        //// VETORES Classe
 
-            //int n = int.Parse(Console.ReadLine());
+        //int n = int.Parse(Console.ReadLine());
 
-            //Produto[] vector = new Produto[n];
+        //Produto[] vector = new Produto[n];
 
-            //for (int i = 0; i < n; i++)
-            //{
-            //    string name = Console.ReadLine();
-            //    double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        //for (int i = 0; i < n; i++)
+        //{
+        //    string name = Console.ReadLine();
+        //    double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            //    vector[i] = new Produto { Name = name, Preco = price };
-            //}
+        //    vector[i] = new Produto { Name = name, Preco = price };
+        //}
 
-            //double sum = 0.0;
+        //double sum = 0.0;
 
-            //for (int j = 0; j < n ; j++)
-            //{
+        //for (int j = 0; j < n ; j++)
+        //{
 
-            //    sum += vector[j].Preco;
+        //    sum += vector[j].Preco;
 
-            //}
+        //}
 
-            //double avg = sum / n;
+        //double avg = sum / n;
 
-            //Console.WriteLine("Media = " +  avg.ToString("f2", CultureInfo.InvariantCulture));
+        //Console.WriteLine("Media = " +  avg.ToString("f2", CultureInfo.InvariantCulture));
 
 
-            //// VETORES Struct
+        //// VETORES Struct
 
 
-            //int n = int.Parse(Console.ReadLine());
+        //int n = int.Parse(Console.ReadLine());
 
-            //double[] vector = new double[n];
+        //double[] vector = new double[n];
 
-            //for (int i = 0; i < n; i++)
-            //{
+        //for (int i = 0; i < n; i++)
+        //{
 
-            //    vector[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        //    vector[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            //}
+        //}
 
-            //double sum = 0.0;
+        //double sum = 0.0;
 
-            //for (int j = 0; j < n; j++)
-            //{ 
-            //    sum += vector[j];
-            //    Console.WriteLine($"Vector posição {j} tem valor: " + vector[j] + $" Soma: {sum}");
+        //for (int j = 0; j < n; j++)
+        //{ 
+        //    sum += vector[j];
+        //    Console.WriteLine($"Vector posição {j} tem valor: " + vector[j] + $" Soma: {sum}");
 
-            //}
+        //}
 
-            //// OPERADOR DE COALESCENCIA NULA
+        //// OPERADOR DE COALESCENCIA NULA
 
-            //double? p = null;
-            //double? q = p ?? 11;
+        //double? p = null;
+        //double? q = p ?? 11;
 
-            //Console.WriteLine(p.GetValueOrDefault());
-            //Console.WriteLine(q.GetValueOrDefault());
+        //Console.WriteLine(p.GetValueOrDefault());
+        //Console.WriteLine(q.GetValueOrDefault());
 
 
 
-            ////NULLABLE
+        ////NULLABLE
 
-            ////double x = null; não é possivel
+        ////double x = null; não é possivel
 
-            //Nullable<double> y = 10;
+        //Nullable<double> y = 10;
 
-            //double? x = null;
+        //double? x = null;
 
-            //Console.WriteLine(x.GetValueOrDefault());
-            //Console.WriteLine(x.HasValue);
-            //if (x.HasValue)
-            //{
-            //    Console.WriteLine(x.Value);
-            //}
-            //else
-            //{
-            //    Console.WriteLine("null");
-            //}
+        //Console.WriteLine(x.GetValueOrDefault());
+        //Console.WriteLine(x.HasValue);
+        //if (x.HasValue)
+        //{
+        //    Console.WriteLine(x.Value);
+        //}
+        //else
+        //{
+        //    Console.WriteLine("null");
+        //}
 
 
-            //Console.WriteLine(y.GetValueOrDefault());
-            //Console.WriteLine(y.HasValue);
-            //Console.WriteLine(y.Value);
+        //Console.WriteLine(y.GetValueOrDefault());
+        //Console.WriteLine(y.HasValue);
+        //Console.WriteLine(y.Value);
 
 
 
@@ -233,21 +272,21 @@ namespace Course
 
 
 
-            // STRUCT     
-            //Point p;
+        // STRUCT     
+        //Point p;
 
-            //p.X = 10;
-            //p.Y = 20;
-            //Console.WriteLine(p);
+        //p.X = 10;
+        //p.Y = 20;
+        //Console.WriteLine(p);
 
-            //p = new Point();
-            //Console.WriteLine(p);
+        //p = new Point();
+        //Console.WriteLine(p);
 
 
 
 
 
-        
+
 
     }
 }
