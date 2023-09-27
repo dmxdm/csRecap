@@ -22,3 +22,8 @@ S7 - Aula 85, tipo var
 S7 - Aula 86, switch case
 S7 - Aula 87, if-else- condição ternaria, maneira diferente
 S7 - Aula 88, funções auxiliares para STRINGS
+S7 - Aula 89, DateTime
+S7 - Aula 90, TimeSpan e metodos from (USAR PARA DURAÇÃO)
+S7 - Aula 91, DateTime, proprieadades e operadores
+S7 - Aula 92, TimeSpan, proprieadades e operadores
+S7 - Aula 93, DateTimeKind e Padrao ISO 8601
