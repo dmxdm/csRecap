@@ -27,3 +27,8 @@ S7 - Aula 90, TimeSpan e metodos from (USAR PARA DURAÇÃO)
 S7 - Aula 91, DateTime, proprieadades e operadores
 S7 - Aula 92, TimeSpan, proprieadades e operadores
 S7 - Aula 93, DateTimeKind e Padrao ISO 8601
+S8 - Aula 101, GitHub SSH chave de segurança para limitar PCs que podem fazer acesso
+S8 - Aula 102, GitHub Inicializa com SSH chave, é diferente de https!
+S8 - Aula 105 git log --oneline
+S8 - Aula 107 git diff e dentro do vbcode
+S8 - Aula 108 check out
